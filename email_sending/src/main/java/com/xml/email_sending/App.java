@@ -62,7 +62,7 @@ public class App {
 		Session session=Session.getInstance(properties, new Authenticator() {
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {				
-				return new PasswordAuthentication("prethikaam@gmail.com", "prethikaalalitham2768");
+				return new PasswordAuthentication("prethikaam@gmail.com", "password"+ "");
 			}
 		});
 		session.setDebug(true);
