@@ -69,7 +69,11 @@ class createExcel implements Excel
 		
 		HSSFRow rowhead = sheet.createRow((short)0);  
 		rowhead.createCell(0).setCellValue("Customer Name : Prethikaa");  
+<<<<<<< HEAD
 		rowhead.createCell(3).setCellValue("Bill No : 2703186");  
+=======
+		rowhead.createCell(3).setCellValue("Bill No : 27186");  
+>>>>>>> 6bf0fecda17bcfa47deac7132d31486c6381f74e
 		rowhead.createCell(5).setCellValue("Bill Date : 27/03/2021");
 		
 		HSSFRow row0 = sheet.createRow((short)1);  
