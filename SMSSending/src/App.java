@@ -42,7 +42,7 @@ public class App {
 				to=ar.get(i).get(0);
 				message=ar.get(0).get(1);
 			    Message messageobj = Message.creator(new PhoneNumber(to),
-				        new PhoneNumber("+12107022886"), 
+				        new PhoneNumber("+121678954"), 
 				        message).create();
 
 				    System.out.println(messageobj.getSid());
