@@ -18,7 +18,7 @@ import org.apache.poi.ss.util.CellRangeAddress;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-public class XMLToExcel {
+public class XMLToExcel1 {
 	public static void main(String[] args) {
 		Object obj1=new XMLToExcel();
 		createExcel createExcelobj=new createExcel();
@@ -68,9 +68,9 @@ class createExcel implements Excel
 		sheet.addMergedRegion(new CellRangeAddress(0,0,5,6));
 		
 		HSSFRow rowhead = sheet.createRow((short)0);  
-		rowhead.createCell(0).setCellValue("Customer Name : Saiprasaad");  
-		rowhead.createCell(3).setCellValue("Bill No : 31243");  
-		rowhead.createCell(5).setCellValue("Bill Date : 08/03/2021");
+		rowhead.createCell(0).setCellValue("Customer Name : Prethikaa");  
+		rowhead.createCell(3).setCellValue("Bill No : 2703186");  
+		rowhead.createCell(5).setCellValue("Bill Date : 27/03/2021");
 		
 		HSSFRow row0 = sheet.createRow((short)1);  
 		row0.createCell(0).setCellValue("S.No.");  
