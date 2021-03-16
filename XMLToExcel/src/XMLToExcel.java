@@ -68,9 +68,9 @@ class createExcel implements Excel
 		sheet.addMergedRegion(new CellRangeAddress(0,0,5,6));
 		
 		HSSFRow rowhead = sheet.createRow((short)0);  
-		rowhead.createCell(0).setCellValue("Customer Name : Saiprasaad");  
-		rowhead.createCell(3).setCellValue("Bill No : 31243");  
-		rowhead.createCell(5).setCellValue("Bill Date : 08/03/2021");
+		rowhead.createCell(0).setCellValue("Customer Name : Prethikaa");  
+		rowhead.createCell(3).setCellValue("Bill No : 27186");  
+		rowhead.createCell(5).setCellValue("Bill Date : 27/03/2021");
 		
 		HSSFRow row0 = sheet.createRow((short)1);  
 		row0.createCell(0).setCellValue("S.No.");  
