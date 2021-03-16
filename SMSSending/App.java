@@ -17,8 +17,8 @@ import org.xml.sax.SAXException;
 public class App {
 		//sms sent using twillo 
 	  static ArrayList<ArrayList<String>> ar=new ArrayList<ArrayList<String>>();
-	  public static final String ACCOUNT_SID = "AC1f50b87bb7c56d21d8df8afcecee9877";
-	  public static final String AUTH_TOKEN = "13e3e4aec985f8938393a7ce2befe3ca";
+	  public static final String ACCOUNT_SID = "AC1f50b87bb7c56d21hifhoeb9877";
+	  public static final String AUTH_TOKEN = "13e3e4aec985f8938393a7jefhjujww988";
 
 	  public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
 		    Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
@@ -42,7 +42,7 @@ public class App {
 				to=ar.get(i).get(0);
 				message=ar.get(0).get(1);
 			    Message messageobj = Message.creator(new PhoneNumber(to),
-				        new PhoneNumber("+121678954"), 
+				        new PhoneNumber("+1216579043"), 
 				        message).create();
 
 				    System.out.println(messageobj.getSid());

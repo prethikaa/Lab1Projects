@@ -66,7 +66,7 @@ class createPDF implements PDF
         
         Font boldheadFont = new Font(Font.FontFamily.TIMES_ROMAN, 14, Font.BOLD);
         
-        Paragraph para1 = new Paragraph("Customer Name: Prethikaa Bill No : 27186    Bill Date : 27/03/2021",boldheadFont);
+        Paragraph para1 = new Paragraph("Customer Name: Prethikaa    Bill No : 27681    Bill Date : 27/03/2021",boldheadFont);
         para1.setAlignment(Paragraph.ALIGN_CENTER);
         document.add(para1);
         
@@ -119,7 +119,7 @@ class createPDF implements PDF
 		
 		
 		
-		System.out.println("PDF Created Successfully");
+		System.out.println("PDF Created ");
         document.add(table);
         document.close();
 		
