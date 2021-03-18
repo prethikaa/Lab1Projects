@@ -1,0 +1,29 @@
+<!DOCTYPE invoice SYSTEM "invoice.dtd">
+<invoice>
+<customer>
+<customerno>4</customerno>
+<customername>Prethikaa</customername>
+<customeraddress>Chennai</customeraddress>
+<customeremail>pm@gmail.com</customeremail>
+<customerphone>980948932</customerphone>
+<invoiceno>111</invoiceno>
+</customer>
+<items>
+<item>
+<itemno>1181</itemno>
+<itemdescription>Pizza</itemdescription>
+<itemprice>485</itemprice>
+<itemqty>1</itemqty>
+<itemunit>1 </itemunit>
+<itemtotal>485</itemtotal>
+</item>
+<item>
+<itemno>1182</itemno>
+<itemdescription>Choco lava</itemdescription>
+<itemprice>100</itemprice>
+<itemqty>2</itemqty>
+<itemunit>1 </itemunit>
+<itemtotal>200</itemtotal>
+</item>
+</items>
+</invoice>
