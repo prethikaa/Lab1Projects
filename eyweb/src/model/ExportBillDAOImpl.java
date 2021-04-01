@@ -271,7 +271,7 @@ public class ExportBillDAOImpl implements ExportBillDAO,Cloneable{
 		Session session=Session.getInstance(properties, new Authenticator() {
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {				
-				return new PasswordAuthentication("prethikaam@gmail.com", "prethikaalalitham2768");
+				return new PasswordAuthentication("prethikaam@gmail.com", "***");
 			}
 		});
 		session.setDebug(true);
